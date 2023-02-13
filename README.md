@@ -14,7 +14,7 @@ Declarations:
  
  
 Publishers.Map
-A publisher that transforms all elements from the upstream publisher with a provided closure.\
+A publisher that transforms all elements from the upstream publisher with a provided closure.
 
 Declarations:
 struct Map<Upstream, Output> where Upstream : Publisher
